@@ -1,0 +1,116 @@
+h1.mainheader {
+    font-family: lato;
+}
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+}
+body:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    content: '';
+    display: block;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+h1.mainheader {
+    font-family: raleway;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+}
+.wrap {
+    float: left;
+    width: 100%;
+    z-index: 9;
+    position: relative;
+}
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+form.signup input[type="text"], form.signup input[type="email"], form.signup select.gender, form.signup input[type="password"],form.signup textarea {
+    background: rgb(255,255,255);
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 13px;
+    width: 100%;
+    border-color: #fff;
+    border-radius: 1px;
+    margin: 12px 0;
+    font-family: cabin;
+    color: #444 !important;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+form.signup textarea{
+    min-height: 20px;
+    max-height: 200px;
+    height: 150px;
+}
+form.signup input.firstname, form.signup input.lastname, form.signup input.email, form.signup input.pass {
+    float: left;
+    width: 49%;
+    margin-right: 18px;
+}
+input.lastname , input.pass{
+    margin-right: 0 !important;
+}
+input.license {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.terms {
+    color: #fff;
+    font-family: cabin;
+    font-size: 17px;
+    display: flex;
+}
+.terms span {
+    padding-left: 10px;
+}
+.terms span a {
+    color: #fff;
+    text-decoration: none;
+}
+input.submit {
+    font-family: raleway;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px 50px;
+    background: #000;
+    border-style: solid;
+    border-width: 0;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px / 20px;
+    display: block;
+    transition: all ease 200ms;
+    margin: 10px auto;
+}
+input.submit:hover {
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+}
+input:hover {
+    background: #f9f9f9 !important;
+    border-color: #f9f9f9 !important;
+}
+input {
+    transition: all ease 200ms;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-family: cabin;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    padding: 0;
+    width: 100%;
+}
